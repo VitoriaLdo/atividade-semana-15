@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VLY Livros</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<header>
+  <div class="container cabecalho">
+    <a href="index.html" class="logo">🦉 VLY Livros</a>
+    <nav class="menu">
+      <a href="#livros">Livros</a>
+      <a href="#destaques">Destaques</a>
+      <a href="#estatisticas">Estatísticas</a>
+      <a href="#sobre">Sobre</a>
+      <span id="menu-favoritos" style="display:none"><a href="favoritos.html">❤️ Favoritos</a></span>
+      <span class="usuario-logado" id="menu-usuario" style="display:none"></span>
+      <span id="menu-loginout"><a href="login.html" class="btn-login">Entrar</a></span>
+    </nav>
+  </div>
+</header>
+
+<section id="destaques" class="container espacamento">
+  <h2 class="titulo-secao">✨ Destaques</h2>
+  <div id="carouselDestaques" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner" id="lista-destaques"><div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselDestaques" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselDestaques" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+</section>
+
+<section id="livros" class="container espacamento">
+  <h2 class="titulo-secao">📚 Livros</h2>
+  <div class="area-filtros">
+    <input type="text" id="campo-busca" class="campo" placeholder="🔍 Buscar por título ou descrição...">
+    <select id="filtro-categoria" class="campo"></select>
+  </div>
+  <div class="row g-4" id="lista-livros">
+    <div class="col-12 text-center py-5">
+      <p style="color:#666;">Carregando livros...</p>
+    </div>
+  </div>
+</section>
+
+<section id="estatisticas" class="secao-graficos">
+  <div class="container">
+    <h2 class="titulo-secao">📊 Estatísticas da Biblioteca</h2>
+
+    <div class="cards-stats">
+      <div class="card-stat">
+        <h2 id="stat-total">–</h2>
+        <p>Total de Livros</p>
+      </div>
+      <div class="card-stat">
+        <h2 id="stat-estoque">–</h2>
+        <p>Em Estoque</p>
+      </div>
+      <div class="card-stat">
+        <h2 id="stat-indisponivel">–</h2>
+        <p>Indisponíveis</p>
+      </div>
+    </div>
+
+    <div class="graficos-grid">
+      <div class="grafico-box">
+        <h4>📗 Livros por Categoria</h4>
+        <canvas id="grafico-categorias"></canvas>
+      </div>
+      <div class="grafico-box">
+        <h4>💰 Preço Médio por Categoria</h4>
+        <canvas id="grafico-precos"></canvas>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="sobre" class="sobre">
+  <div class="container">
+    <h2 class="titulo-secao">Sobre a Criadora</h2>
+    <div class="card-sobre">
+      <div class="foto-sobre">
+        <img src="assets/img/criadora.jpeg" alt="Vitória Letícia de Oliveira">
+      </div>
+      <div class="texto-sobre">
+        <h3>Vitória Letícia de Oliveira</h3>
+        <p class="curso">Estudante de Sistemas de Informação — 1º Período</p>
+        <p>Sou estudante da PUC Minas e desenvolvi este projeto com o objetivo de criar uma loja virtual de livros moderna, organizada e completamente funcional, integrando front-end com um servidor de dados JSONServer.</p>
+        <p><strong>Faculdade:</strong> PUC Minas</p>
+        <p><strong>Disciplina:</strong> Trabalho Interdisciplinar</p>
+        <p><strong>Turma:</strong> Sistemas de Informação — 2026/1</p>
+        <p><strong>Ano:</strong> 2026</p>
+        <div class="redes-sociais">
+          <a href="https://linkedin.com/in/vitorialeticiaoliveira" target="_blank" class="rede-link">💼 LinkedIn</a>
+          <a href="gmailto:voliveira@sga.pucminas.br" class="rede-link">✉️ E-mail</a>
+          <a href="https://github.com/VitoriaLdo" target="_blank" class="rede-link">🐙 GitHub</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 - Vitória Letícia de Oliveira · VLY Livros</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

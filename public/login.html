@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login — VLY Livros</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/auth.css">
+</head>
+
+<body>
+<header>
+  <div class="container cabecalho">
+    <a href="index.html" class="logo">🦉 VLY Livros</a>
+    <a href="index.html" class="nav-link">← Voltar</a>
+  </div>
+</header>
+
+<main>
+  <div class="auth-box">
+    <div class="auth-icon">🔐</div>
+    <h1 class="auth-title">Entrar</h1>
+    <p class="auth-subtitle">Acesse sua conta para favoritar livros</p>
+
+    <div id="msg-erro" class="msg-erro"></div>
+
+    <form id="form-login">
+      <div class="form-group">
+        <label for="login">Login</label>
+        <input type="text" id="login" placeholder="Seu login" required autocomplete="username">
+      </div>
+      <div class="form-group">
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" placeholder="Sua senha" required autocomplete="current-password">
+      </div>
+      <button type="submit" class="btn-primary-auth">Entrar</button>
+    </form>
+
+    <div class="auth-link">
+      Não tem conta? <a href="cadastro_usuario.html">Cadastre-se</a>
+    </div>
+
+    <div style="margin-top:20px; padding:14px; background:#eef4e3; border-radius:10px; font-size:0.82rem; color:#555;">
+      <strong style="color:#234d20;">Contas de teste:</strong>
+      <br>
+      Usuário: <code>user</code> / <code>123</code>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <p>© 2026 - Vitória Letícia de Oliveira</p>
+</footer>
+
+<script src="assets/js/login.js"></script>
+</body>
+</html>

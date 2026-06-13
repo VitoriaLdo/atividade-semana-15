@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f4f8ef;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1; 
+}
+
+header {
+  background: #234d20;
+  padding: 18px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #c9df8a;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.nav-det {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.botao-voltar {
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.2s;
+}
+
+.botao-voltar:hover {
+  color: #c9df8a; 
+}
+
+.area-detalhes {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.box-detalhes {
+  background: white;
+  border-radius: 20px;
+  padding: 35px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+}
+
+.imagem-detalhes {
+  width: 100%;
+  max-width: 260px;
+  border-radius: 14px;
+  box-shadow: 0 3px 14px rgba(0,0,0,0.14);
+}
+
+.categoria-detalhes {
+  color: #2e7d32;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.titulo-detalhes {
+  font-size: 2rem;
+  color: #234d20;
+  margin: 10px 0;
+}
+
+.autor-detalhes {
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.informacoes {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+}
+
+.item-info {
+  background: #eef4e3;
+  padding: 12px 16px;
+  border-radius: 12px;
+  min-width: 110px;
+  display: flex;
+  flex-direction: column;
+}
+
+.item-info strong {
+  color: #234d20;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.item-info span {
+  color: #444; 
+  font-size: 0.95rem; 
+}
+
+.descricao-detalhes {
+  margin-bottom: 25px; 
+}
+
+.descricao-detalhes h4 {
+  color: #234d20;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.descricao-detalhes p {
+  line-height: 1.8;
+  color: #444;
+}
+
+.rodape-detalhes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.preco-detalhes {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #234d20;
+}
+
+.acoes-detalhes {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.btn-fav-det {
+  background: white;
+  border: 2px solid #234d20;
+  padding: 9px 18px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+  color: #234d20;
+  font-weight: 600;
+  transition: 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.btn-fav-det:hover {
+  background: #eef4e3;
+}
+
+.btn-fav-det.favoritado {
+  background: #fce4ec;
+  border-color: #e91e63;
+  color: #e91e63;
+}
+
+.botao-voltar-pagina {
+  border: 2px solid #234d20;
+  padding: 9px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: #234d20;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.botao-voltar-pagina:hover {
+  background: #234d20;
+  color: white;
+}
+
+.fotos-relacionadas {
+  margin-top: 45px; 
+}
+
+.titulo-fotos {
+  color: #234d20;
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.card-foto {
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+  transition: transform 0.2s;
+}
+
+.card-foto:hover {
+  transform: translateY(-5px); 
+}
+
+.card-foto img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.card-foto p {
+  padding: 12px;
+  text-align: center;
+  font-weight: 600;
+  margin: 0;
+  color: #234d20;
+}
+
+footer {
+  background: #234d20;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: auto;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .box-detalhes { padding: 20px; }
+  .titulo-detalhes { font-size: 1.5rem; }
+  .informacoes { flex-direction: column; }
+  .rodape-detalhes { flex-direction: column; align-items: flex-start; }
+  .imagem-detalhes { max-width: 200px; }
+  .card-foto img { height: 280px; }
+}
+
+@media (max-width: 480px) {
+  .logo { font-size: 1.2rem; }
+  .titulo-detalhes { font-size: 1.3rem; }
+  .preco-detalhes { font-size: 1.2rem; }
+  .imagem-detalhes { max-width: 180px; }
+  .card-foto img { height: 220px; }
+}

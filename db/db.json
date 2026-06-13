@@ -1,0 +1,273 @@
+{
+  "livros": [
+    {
+      "id": "1",
+      "nome": "Dom Casmurro",
+      "preco": 48.46,
+      "categoria": "Romance",
+      "destaque": true,
+      "imagem": "assets/img/dom-casmurro.webp",
+      "descricao": "Em Dom Casmurro, Bento Santiago relembra sua infância na Rua de Matacavalos e o relacionamento com Capitu, uma das personagens mais marcantes da literatura brasileira. Consumido pelo ciúme, ele narra sua versão dos fatos e levanta dúvidas sobre uma possível traição da esposa, criando uma história cheia de ambiguidades e questionamentos que até hoje dividem os leitores.",
+      "emEstoque": true,
+      "autor": "Machado de Assis",
+      "ano": 1899,
+      "paginas": 256,
+      "editora": "Penguin Companhia",
+      "fotos": [
+        {
+          "titulo": "Edição de Luxo",
+          "imagem": "assets/img/dom-casmurro.webp"
+        },
+        {
+          "titulo": "Edição Clássica",
+          "imagem": "assets/img/dom-casmurro-1.jpeg"
+        },
+        {
+          "titulo": "Edição Exclusiva Amazon",
+          "imagem": "assets/img/dom-casmurro-2.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "nome": "1984",
+      "preco": 34.9,
+      "categoria": "Ficção Científica",
+      "destaque": true,
+      "imagem": "assets/img/1984.jpg",
+      "descricao": "Em 1984, Winston Smith vive em uma sociedade controlada pelo Partido e pelo Grande Irmão, onde até o passado é manipulado para manter o poder. Trabalhando na alteração de registros históricos, ele começa a questionar o sistema opressor e sonha em se rebelar contra o governo, em uma trama marcada pela vigilância, censura e controle da verdade.",
+      "emEstoque": true,
+      "autor": "George Orwell",
+      "ano": 1949,
+      "paginas": 328,
+      "editora": "Principis",
+      "fotos": [
+        {
+          "titulo": "Edição de Luxo",
+          "imagem": "assets/img/1984-1.jpeg"
+        },
+        {
+          "titulo": "Edição Clássica",
+          "imagem": "assets/img/1984.jpg"
+        },
+        {
+          "titulo": "Edição Companhia das Letras",
+          "imagem": "assets/img/1984-2.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "nome": "Harry Potter e a Pedra Filosofal",
+      "preco": 38.11,
+      "categoria": "Fantasia",
+      "destaque": true,
+      "imagem": "assets/img/harry-potter.jpg",
+      "descricao": "Em Harry Potter e a Pedra Filosofal, Harry Potter descobre aos 11 anos que é um bruxo e passa a fazer parte de um mundo mágico escondido dos humanos. Após crescer sendo maltratado pelos tios, ele aprende a verdade sobre a morte de seus pais e entende que possui uma ligação com o bruxo das trevas que tentou matá-lo quando ainda era bebê.",
+      "emEstoque": false,
+      "autor": "J.K. Rowling",
+      "ano": 1997,
+      "paginas": 264,
+      "editora": "Rocco",
+      "fotos": [
+        {
+          "titulo": "Edição de Luxo",
+          "imagem": "assets/img/harry-potter-1.jpeg"
+        },
+        {
+          "titulo": "Edição Clássica",
+          "imagem": "assets/img/harry-potter.jpg"
+        },
+        {
+          "titulo": "Edição Comemorativa",
+          "imagem": "assets/img/harry-potter-2.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "nome": "Novembro 9",
+      "preco": 64.9,
+      "categoria": "Romance",
+      "destaque": false,
+      "imagem": "assets/img/novembro-9.jpg",
+      "descricao": "Aos 18 anos, Fallon tenta recomeçar a vida em Nova York após um incêndio destruir sua carreira de atriz e deixá-la marcada por cicatrizes. Antes da mudança, ela conhece Ben, um jovem escritor, e os dois criam uma forte conexão. Mesmo separados pela distância, prometem se reencontrar todos os anos na mesma data.",
+      "emEstoque": true,
+      "autor": "Colleen Hoover",
+      "ano": 2015,
+      "paginas": 310,
+      "editora": "Galera",
+      "fotos": [
+        {
+          "titulo": "Edição Capítulo Extra",
+          "imagem": "assets/img/novembro-9-1.jpeg"
+        },
+        {
+          "titulo": "Edição Clássica",
+          "imagem": "assets/img/novembro-9.jpg"
+        },
+        {
+          "titulo": "Edição em Inglês",
+          "imagem": "assets/img/novembro-9-2.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "nome": "O Hobbit",
+      "preco": 74.9,
+      "categoria": "Fantasia",
+      "destaque": false,
+      "imagem": "assets/img/o-hobbit.jpg",
+      "descricao": "Em O Hobbit, Bilbo Bolseiro abandona sua vida tranquila ao lado do mago Gandalf e de treze anãos liderados por Thorin Escudo-de-Carvalho. Juntos, eles atravessam a Terra-média em uma perigosa missão para recuperar um tesouro guardado pelo dragão Smaug.",
+      "emEstoque": true,
+      "autor": "J.R.R. Tolkien",
+      "ano": 1937,
+      "paginas": 288,
+      "editora": "HarperCollins",
+      "fotos": [
+        {
+          "titulo": "Edição Comemorativa",
+          "imagem": "assets/img/o-hobbit-1.jpeg"
+        },
+        {
+          "titulo": "Edição Clássica",
+          "imagem": "assets/img/o-hobbit.jpg"
+        },
+        {
+          "titulo": "Edição em Quadrinhos",
+          "imagem": "assets/img/o-hobbit-2.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "nome": "O Morro dos Ventos Uivantes",
+      "preco": 19,
+      "categoria": "Romance",
+      "destaque": false,
+      "imagem": "assets/img/o-morro-dos-ventos-uivantes.jpg",
+      "descricao": "Em O Morro dos Ventos Uivantes, Catherine Earnshaw e Heathcliff vivem uma relação intensa marcada por amor, obsessão e vingança. Rejeitado e humilhado ao longo da vida, Heathcliff alimenta um profundo rancor, enquanto seu vínculo com Catherine se torna o centro de uma história trágica.",
+      "emEstoque": true,
+      "autor": "Emily Brontë",
+      "ano": 1847,
+      "paginas": 400,
+      "editora": "Martin Claret",
+      "fotos": [
+        {
+          "titulo": "Edição de Luxo",
+          "imagem": "assets/img/o-morro-dos-ventos-uivantes-1.jpeg"
+        },
+        {
+          "titulo": "Edição Clássica",
+          "imagem": "assets/img/o-morro-dos-ventos-uivantes.jpg"
+        },
+        {
+          "titulo": "Edição de Bolso",
+          "imagem": "assets/img/o-morro-dos-ventos-uivantes-2.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "nome": "Os Miseráveis",
+      "preco": 189.9,
+      "categoria": "Romance",
+      "destaque": false,
+      "imagem": "assets/img/os-miseraveis.jpg",
+      "descricao": "Em Os Miseráveis, Jean Valjean é condenado a anos de prisão por roubar um pão e passa a enfrentar as injustiças e desigualdades da sociedade. A obra acompanha sua busca por redenção em uma narrativa emocionante que mistura drama, crítica social, política e questões humanas profundas.",
+      "emEstoque": true,
+      "autor": "Victor Hugo",
+      "ano": 1862,
+      "paginas": 1232,
+      "editora": "Cosac Naify",
+      "fotos": [
+        {
+          "titulo": "Edição de Luxo",
+          "imagem": "assets/img/os-miseraveis.jpg"
+        },
+        {
+          "titulo": "Edição Clássica",
+          "imagem": "assets/img/os-miseraveis.jpg"
+        },
+        {
+          "titulo": "Edição Exclusiva Amazon",
+          "imagem": "assets/img/os-miseraveis-1.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "nome": "O Alquimista",
+      "preco": 44.49,
+      "categoria": "Ficção Científica",
+      "destaque": false,
+      "imagem": "assets/img/o-alquimista.jpg",
+      "descricao": "Em O Alquimista, Santiago, um jovem pastor espanhol, parte em busca de um tesouro escondido nas Pirâmides do Egito. Durante a jornada, ele conhece pessoas que o ajudam a compreender que os verdadeiros tesouros estão no autoconhecimento, nos sonhos e nas lições aprendidas ao longo do caminho.",
+      "emEstoque": false,
+      "autor": "Paulo Coelho",
+      "ano": 1988,
+      "paginas": 176,
+      "editora": "HarperCollins",
+      "fotos": [
+        {
+          "titulo": "Edição de Luxo",
+          "imagem": "assets/img/o-alquimista-1.jpeg"
+        },
+        {
+          "titulo": "Edição Clássica",
+          "imagem": "assets/img/o-alquimista.jpg"
+        },
+        {
+          "titulo": "Edição de Bolso",
+          "imagem": "assets/img/o-alquimista-2.jpeg"
+        }
+      ]
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "admin-001",
+      "login": "admin",
+      "senha": "123",
+      "nome": "Administrador do Sistema",
+      "email": "admin@vlylivros.com",
+      "admin": true,
+      "favoritos": []
+    },
+    {
+      "id": "user-001",
+      "login": "user",
+      "senha": "123",
+      "nome": "Usuário Comum",
+      "email": "user@vlylivros.com",
+      "admin": false,
+      "favoritos": [
+        "1",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "id": "ec9f489f-3fc2-43e4-86f3-1e4adc1309bf",
+      "login": "Vivi",
+      "senha": "1234",
+      "nome": "Vitoria Leticia de Oliveira",
+      "email": "voliveira@sga.pucminas.br",
+      "admin": false,
+      "favoritos": [
+        "3",
+        "4"
+      ]
+    },
+    {
+      "id": "2c1d2069-eed0-4c98-98cc-1a59b9fe7806",
+      "login": "vitorialdo12@gmail.com",
+      "senha": "123456789",
+      "nome": "vivi",
+      "email": "admin@exemplo.com",
+      "admin": false,
+      "favoritos": []
+    }
+  ]
+}

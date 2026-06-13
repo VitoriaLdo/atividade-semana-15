@@ -1,0 +1,225 @@
+* {
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f4f8ef;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1; 
+}
+
+header {
+  background: #234d20;
+  padding: 18px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #c9df8a;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.menu {
+  display: flex; 
+  gap: 15px; 
+  align-items: center; 
+}
+
+.menu a {
+  color: white; 
+  text-decoration: none; 
+  font-size: 0.9rem; 
+}
+
+.menu a:hover {
+  color: #c9df8a; 
+}
+
+.btn-logout {
+  background: transparent;
+  color: #ffcdd2 !important;
+  border: 1px solid #ffcdd2;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: 0.2s;
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn-logout:hover {
+  background: #ffcdd2;
+  color: #234d20 !important; 
+}
+
+.fav-area {
+  padding: 50px 0; 
+}
+
+.fav-titulo {
+  color: #234d20;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.fav-subtitulo {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.vazio-msg {
+  text-align: center;
+  padding: 60px 20px;
+  color: #888;
+}
+
+.vazio-msg span { 
+  font-size: 3.5rem; 
+  display: block; 
+  margin-bottom: 15px; 
+}
+
+.vazio-msg h3 { 
+  color: #555; 
+  margin-bottom: 8px; 
+}
+
+.vazio-msg a {
+  display: inline-block;
+  margin-top: 15px;
+  background: #234d20;
+  color: white;
+  padding: 10px 22px;
+  border-radius: 22px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.2s;
+}
+.vazio-msg a:hover { 
+  background: #1a3a17; 
+}
+
+.card-livro {
+  background: white;
+  border-radius: 18px;
+  overflow: hidden;
+  height: 100%;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+  transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.card-livro:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.14);
+}
+
+.imagem-card { 
+  height: 300px; 
+  position: relative; 
+}
+
+.imagem-card img { 
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+}
+
+.btn-favorito {
+  position: absolute; 
+  top: 10px; 
+  right: 10px;
+  background: white; 
+  border: none; 
+  border-radius: 50%;
+  width: 36px; 
+  height: 36px;
+  font-size: 1.2rem;
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  cursor: pointer; 
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  transition: transform 0.2s;
+}
+
+.btn-favorito:hover { 
+  transform: scale(1.2); 
+}
+
+.conteudo-card { 
+  padding: 18px; 
+}
+
+.categoria-card { 
+  color: #2e7d32; 
+  font-size: 0.75rem; 
+  font-weight: 700; 
+  text-transform: uppercase; 
+}
+
+.titulo-card { 
+  font-size: 1.05rem; 
+  color: #234d20; 
+  margin: 8px 0; 
+  min-height: 52px; 
+}
+
+.autor-card { 
+  color: #777; 
+  font-size: 0.9rem; 
+  margin-bottom: 16px;
+}
+
+.rodape-card { 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+.preco-card { 
+  font-size: 1.1rem; 
+  font-weight: 700; 
+  color: #234d20; 
+}
+
+.botao-card { 
+  background: #234d20; 
+  color: white; 
+  padding: 8px 16px; 
+  border-radius: 20px; 
+  text-decoration: none; 
+  font-size: 0.85rem; 
+}
+
+.botao-card:hover { 
+  background: #1a3a17; 
+  color: white; 
+}
+
+footer {
+  background: #234d20;
+  color: white;
+  text-align: center;
+  padding: 18px;
+  margin-top: auto;
+}

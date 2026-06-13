@@ -1,0 +1,11 @@
+{
+  "name": "vly-livros",
+  "version": "1.0.0",
+  "description": "VLY Livros - Loja Virtual de Livros",
+  "scripts": {
+    "start": "json-server --watch db/db.json --port 3000 --static public"
+  },
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}
