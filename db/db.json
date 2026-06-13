@@ -233,7 +233,10 @@
       "nome": "Administrador do Sistema",
       "email": "admin@vlylivros.com",
       "admin": true,
-      "favoritos": []
+      "favoritos": [
+        "4",
+        "2"
+      ]
     },
     {
       "id": "user-001",
